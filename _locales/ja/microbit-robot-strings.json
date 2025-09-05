@@ -1,12 +1,12 @@
 {
-    "{id:group}Robot": "Roboter",
-    "{id:group}Motors": "Motoren",
-    "{id:group}Accessories": "Zubehör",
-    "{id:group}Lines": "Linien",
-    "{id:group}Obstacles": "Hindernisse",
-    "{id:group}Configuration": "Einstellungen",
-    "robot.motorSteer|block": "Robotermotoren steuern $turnRatio mit $speed \\% || für $duration ms",
-    "robot.motorTank|block": "Robotermotoren drehen $left \\% $right \\% || für $duration ms",
+    "{id:group}Robot": "機種選択",
+    "{id:group}Motors": "モーター",
+    "{id:group}Accessories": "LED＆ブザー",
+    "{id:group}Lines": "ライントレース",
+    "{id:group}Obstacles": "衝突センサ",
+    "{id:group}Configuration": "設定",
+    "robot.motorSteer|block": "Robotermotoren steuern $turnRatio mit $speed \\% || $duration ミリ秒",
+    "robot.motorTank|block": "左速度 $left \\% 右速度 $right \\% || $duration ミリ秒",
     "RobotAssist.LineFollowing|block": "Linienfolger",
     "RobotAssist.Speed|block": "Geschwindigkeit",
     "RobotAssist.Display|block": "Anzeige",
@@ -22,7 +22,7 @@
     "robot.onLineOuterLeftLeftOuterRightDetected|block": "Roboter auf Linie $outerLeft $left $right $outerRight",
     "robot.setMotorDrift|block": "Motordrift ändern auf %drift",
     "robot.setAssist|block": "setze Asistenz $assist $enabled",
-    "robot.setRadioGroup|block": "setze Funkgruppe auf $group",
+    "robot.setRadioGroup|block": "無線グループ $group",
     "robot.playTone|block": "spiele Ton $frequency für $duration",
-    "robot.calibrate|block": "Roboter (mit den Knöpfen) kalibrieren"
+    "robot.calibrate|block": "機種 (mit den Knöpfen) kalibrieren"
 }
